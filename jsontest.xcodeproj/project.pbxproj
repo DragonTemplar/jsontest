@@ -21,6 +21,9 @@
 		8F6B68411A1E757E009A57E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F6B68231A1E757E009A57E2 /* UIKit.framework */; };
 		8F6B68491A1E757E009A57E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F6B68471A1E757E009A57E2 /* InfoPlist.strings */; };
 		8F6B684B1A1E757E009A57E2 /* jsontestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6B684A1A1E757E009A57E2 /* jsontestTests.m */; };
+		8F6B68551A1E759E009A57E2 /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = 8F6B68541A1E759E009A57E2 /* test.json */; };
+		8F7C343C1AD0D8B000F64D1A /* Carina.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F7C343B1AD0D8B000F64D1A /* Carina.png */; };
+		8F7C343E1AD0F43F00F64D1A /* wanaan.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F7C343D1AD0F43F00F64D1A /* wanaan.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		8F6B68461A1E757E009A57E2 /* jsontestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "jsontestTests-Info.plist"; sourceTree = "<group>"; };
 		8F6B68481A1E757E009A57E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8F6B684A1A1E757E009A57E2 /* jsontestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jsontestTests.m; sourceTree = "<group>"; };
+		8F6B68541A1E759E009A57E2 /* test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
+		8F7C343B1AD0D8B000F64D1A /* Carina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Carina.png; path = ../../../Desktop/Carina.png; sourceTree = "<group>"; };
+		8F7C343D1AD0F43F00F64D1A /* wanaan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wanaan.png; path = ../../../Desktop/wanaan.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,7 @@
 		8F6B68131A1E757D009A57E2 = {
 			isa = PBXGroup;
 			children = (
+				8F6B68541A1E759E009A57E2 /* test.json */,
 				8F6B68251A1E757E009A57E2 /* jsontest */,
 				8F6B68441A1E757E009A57E2 /* jsontestTests */,
 				8F6B681E1A1E757E009A57E2 /* Frameworks */,
@@ -117,6 +124,8 @@
 				8F6B68311A1E757E009A57E2 /* Main.storyboard */,
 				8F6B68341A1E757E009A57E2 /* ViewController.h */,
 				8F6B68351A1E757E009A57E2 /* ViewController.m */,
+				8F7C343D1AD0F43F00F64D1A /* wanaan.png */,
+				8F7C343B1AD0D8B000F64D1A /* Carina.png */,
 				8F6B68371A1E757E009A57E2 /* Images.xcassets */,
 				8F6B68261A1E757E009A57E2 /* Supporting Files */,
 			);
@@ -228,7 +237,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F7C343E1AD0F43F00F64D1A /* wanaan.png in Resources */,
 				8F6B68381A1E757E009A57E2 /* Images.xcassets in Resources */,
+				8F6B68551A1E759E009A57E2 /* test.json in Resources */,
+				8F7C343C1AD0D8B000F64D1A /* Carina.png in Resources */,
 				8F6B682A1A1E757E009A57E2 /* InfoPlist.strings in Resources */,
 				8F6B68331A1E757E009A57E2 /* Main.storyboard in Resources */,
 			);
@@ -456,6 +468,7 @@
 				8F6B68501A1E757E009A57E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F6B68511A1E757E009A57E2 /* Build configuration list for PBXNativeTarget "jsontestTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +477,7 @@
 				8F6B68531A1E757E009A57E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
